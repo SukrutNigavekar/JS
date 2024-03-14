@@ -35,3 +35,28 @@ let str1 = "hello";
 let str2 = " Sukrut";
 str1 += str2;
 // console.log(str1);
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack memory(primitive) , heap memory(non primitive)
+
+let name = "Sukrut";
+
+let myName = name;
+
+myName = "Nigavekar";
+
+// console.log("myName value is "+myName);
+// console.log("name value is "+name);
+
+let userOne = {
+  email: "sukrut@gmail.com",
+  upi: "user@ybl",
+};
+
+let userTwo = userOne;
+
+userTwo.email = "SukrutCoder@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
