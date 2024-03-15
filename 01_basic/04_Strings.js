@@ -9,6 +9,10 @@ let gameName = new String("Sukrut");
 console.log(gameName);
 // console.log(gameName.length);
 
-console.log(gameName.toUpperCase());
-console.log(gameName.toLocaleLowerCase());
-console.log(gameName.indexOf('t'));
+// console.log(gameName.toUpperCase());
+// console.log(gameName.toLocaleLowerCase());
+// console.log(gameName.indexOf('t'));
+
+const newString = "   Sukrut    ";
+console.log(newString);
+console.log(newString.trim());
